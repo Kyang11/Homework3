@@ -1,0 +1,150 @@
+:root{
+    --dark: black;
+    --green:green;
+    --red:red;
+    --white:white;
+    --yellow:yellow;
+    --purple:purple; 
+}
+
+
+body{
+    background-color: var(--dark);
+    
+}
+header nav{
+    color: var(--white);
+    text-align: center;
+}
+h1{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    left: 5%;
+    text-align: center;
+}
+nav a{
+    color: var(--white);
+    font-weight:bold;
+    text-decoration:none;
+    padding: 10px;
+    margin: 30px;
+    background-color: var(--dark);
+    border: 1px solid var(--purple);
+    border-radius: 30%;
+}
+
+.text{ 
+    color: white;
+    font-size: 90px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+ 
+    text-align: center;
+}
+img{
+    opacity: 0.5;
+}
+img:hover{
+    opacity:1;
+
+}
+
+a:hover{
+    color:orangered;
+}
+    
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-color:white;
+    grid-row-gap:20px;
+
+}
+img{
+    margin-left: 200px;
+}
+
+.back{
+    background-color:white;
+    height:50px;
+    padding-top: 60px;
+
+}
+
+#year{
+    Background-color:rgb(220, 229, 229);
+    width:800px;
+    margin-top:00px;
+    margin-left:210px;
+    margin-bottom: 40px;
+    text-indent: 50px;
+    
+}
+
+.grid-item{
+    margin-left: 10px;
+}
+
+.grid-item1{
+    margin-top:100px;
+    margin-left: 50px;
+
+}
+
+
+.grid-readmore{
+    color: var(--white);
+    font-weight:bold;
+    text-decoration:none;
+    text-align:center;
+    padding: 10px;
+    margin: 100px;
+    background-color: orange;
+    border: 1px solid var(--purple);
+    border-radius: 20%;
+    height:20px;
+    width: 80px;
+    margin-left: 50px;
+}
+.grid-readmore:hover{
+    color:rgb(234, 13, 145);
+
+}
+footer{
+    height:350px;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    color:white;
+}
+#map{
+    margin-left: 25px;
+}
+
+#info{
+    margin-left:50px
+}
+
+.fa-location-dot{
+    color:yellow;
+}
+.fa-envelope-open-text{
+    color:purple;
+}
+.fa-blender-phone{
+    color:var(--red);
+}
+
+#social:hover{
+color:orangered;
+}
+span{
+    color:rgb(12, 246, 12);
+}
